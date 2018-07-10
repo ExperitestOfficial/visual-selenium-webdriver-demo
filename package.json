@@ -1,0 +1,16 @@
+{
+  "name": "github.demo",
+  "version": "1.0.0",
+  "description": "demo for galen on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/*.*"
+  },
+  "author": "Guy",
+  "license": "ISC",
+  "dependencies": {
+    "galen-visual": "0.0.6",
+    "jasmine": "^3.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
