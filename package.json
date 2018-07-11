@@ -4,13 +4,16 @@
   "description": "demo for galen on github",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine spec/*.*"
+    "test": "mocha spec/demo.js"
   },
   "author": "Guy",
   "license": "ISC",
   "dependencies": {
-    "galen-visual": "0.0.6",
+    "galen-visual": "0.0.7",
     "jasmine": "^3.1.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
